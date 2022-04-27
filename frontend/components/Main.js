@@ -11,17 +11,10 @@ export default function Main() {
           ต้องการหาหนังสืออ่านไว้ใจเราได้เลย
         </h2>
         <div className="ml-6 text-center">
+
           <a
-            className="inline-flex items-center py-3 font-semibold text-black transition duration-500 ease-in-out transform bg-transparent bg-white px-7 text-md md:mt-0 hover:text-black hover:bg-white focus:shadow-outline"
-            href="/"
-          >
-            <div className="flex text-lg">
-              <span className="justify-center">View All Templates</span>
-            </div>
-          </a>
-          <a
-            className="inline-flex items-center py-3 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent ml-11 bg-gradient-to-r from-blue-500 to-blue-800 px-14 text-md md:mt-0 focus:shadow-outline"
-            href="/"
+            className="inline-flex items-center py-3 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent mr-4 bg-gradient-to-r from-blue-500 to-blue-800 px-14 text-md md:mt-0 focus:shadow-outline"
+            href="register"
           >
             <div className="flex text-lg">
               <span className="justify-center">สมัครเลย</span>
@@ -90,34 +83,7 @@ export default function Main() {
           </p>
         </div>
       </div>
-      {/* <div className="pt-32 pb-32 max-w-6xl mx-auto fsac4 md:px-1 px-3">
-        <div class="ktq4">
-          <img src="https://nine4.app/images/nine4-3.png"></img>
-          <h3 class="pt-3 font-semibold text-lg text-white">
-            Lorem ipsum dolor sit amet
-          </h3>
-          <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-            Fusce pharetra ligula mauris, quis faucibus lectus elementum vel.
-            Nullam vehicula, libero at euismod tristique, neque ligula faucibus
-            urna, quis ultricies massa enim in nunc. Vivamus ultricies, quam ut
-            rutrum blandit, turpis massa ornare velit, in sodales tellus ex nec
-            odio.
-          </p>
-        </div>
-        <div class="ktq4">
-          <img src="https://nine4.app/images/nine4-3.png"></img>
-          <h3 class="pt-3 font-semibold text-lg text-white">
-            Lorem ipsum dolor sit amet
-          </h3>
-          <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-            Fusce pharetra ligula mauris, quis faucibus lectus elementum vel.
-            Nullam vehicula, libero at euismod tristique, neque ligula faucibus
-            urna, quis ultricies massa enim in nunc. Vivamus ultricies, quam ut
-            rutrum blandit, turpis massa ornare velit, in sodales tellus ex nec
-            odio.
-          </p>
-        </div>
-      </div> */}
+
       <section class="relative pb-24">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
           <div class="py-24 md:py-36">

@@ -10,9 +10,12 @@ export default function Header() {
       <div class="max-w-5xl mx-auto flex flex-wrap p-5 flex-col md:flex-row">
         <div className="flex flex-row items-center justify-between p-3 md:p-1">
           <a
-            href="/"
+            href="index"
             class="flex text-3xl text-white font-medium mb-4 md:mb-0"
-          >BOOKSHELF
+          >BOOK<span class="text-indigo-600">SHELF</span>
+
+        
+
           </a>
           <button
             className="text-white pb-4 cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none content-end ml-auto"
@@ -184,7 +187,7 @@ export default function Header() {
           </a>
           <a
             data-v-54e46119=""
-            href="https://github.com/"
+            href="https://github.com/boomerangth/client-finally"
             rel="noopener noreferrer"
             target="_blank"
             className="pl-7 invisible md:visible"
