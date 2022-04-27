@@ -10,7 +10,7 @@ export default function Home() {
 
       <Head>
         <title>HOME</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="https://toppng.com/uploads/preview/experience-the-discussion-online-library-book-logo-11562996058ru4peza6zq.png" />
       </Head>
       <Header />
       <Main />

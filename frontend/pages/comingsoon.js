@@ -7,6 +7,10 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div class="flex items-center justify-center h-screen bg-gray-200">
+        <Head>
+        <title>commingsoon</title>
+
+      </Head>
   <div class="container">
     <div class="bg-white rounded-lg shadow-lg p-5 md:p-20 mx-2">
       <div class="text-center">
@@ -18,7 +22,7 @@ export default function Home() {
       </div>
       <div class="flex flex-wrap mt-10 justify-center">
         <div class="m-3">
-          <a href="https://www.facebook.com/QuickToolz" title="Quicktoolz On Facebook"
+          <a href="https://www.facebook.com/b.boomsogood" title="Facebook"
              class="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-600 hover:border-blue-600 hover:bg-blue-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
             <span class="mx-auto">Facebook</span>
           </a>
